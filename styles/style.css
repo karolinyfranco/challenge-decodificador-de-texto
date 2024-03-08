@@ -149,7 +149,7 @@ button:hover {
 }
 
 .resultado:placeholder-shown {
-    background-image: url(/images/resultado-bg.png);
+    background-image: url(../images/resultado-bg.png);
     background-position: top;
     background-repeat: no-repeat;
     border: none;
