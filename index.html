@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Cipher</title>
+        <link rel="icon" href="locked-black-padlock.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/reset.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img src="./images/unlock.png" alt="logo gato" width="55" height="50" id="logo">
+            <div class="titulo__cabecalho">
+                <h1>Code Cipher</h1>
+            </div>
+        </header>
+        <main class="apresentacao">
+            <section class="apresentacao__input">
+                <textarea class="input-texto" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-codificar" onclick="btnCodificar()">Criptografar</button>
+                    <button type="button" class="btn-decodificar" onclick="btnDecodificar()">Descriptografar</button>
+                </div>
+            </section>
+
+            <section class="apresentacao__resultado">
+                <textarea class="resultado" cols="20" rows="10" placeholder=" " readonly></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <div class="redes">
+                <p>Minhas redes: </p>
+            
+            <a href="https://github.com/karolinyfranco" title="karolinyfranco | GitHub" target="_blank">            
+                <img src="./images/github2.png" alt="Logo do GitHub em formato circular."
+                width="40" height="40" id="github">
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/karoliny-franco-dev/" title="Karoliny Vicente Franco | LinkedIn" target="_blank">
+                <img src="./images/linkedin2.png" alt="Logo do LinkedIn em formato circular"
+                width="40" height="40" id="linkedin">
+                LinkedIn
+            </a>
+            </div>
+            
+            <div class="credito">
+                <p>&#169; Desenvolvido por Karoliny Franco</p>
+            </div>
+        </footer>
+
+        <script src="./interaction/script.js"></script>
+    </body>
+</html>
